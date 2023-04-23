@@ -16,6 +16,7 @@ public class Main {
             animal.greeting();
             animal.speak();
             animal.move();
+            animal.feeding();
             System.out.println();
         }
 
