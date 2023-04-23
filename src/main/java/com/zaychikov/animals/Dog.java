@@ -3,6 +3,7 @@ package main.java.com.zaychikov.animals;
 // Класс-наследник с переопределением методов
 
 public class Dog extends Animal {
+
     private String breed;
     private int hunger;
 
@@ -26,7 +27,7 @@ public class Dog extends Animal {
             if (getHunger() <= 3) {
                 System.out.println("Please feed me");
             } else {
-                System.out.println("Man, i'm don't want a feed");
+                System.out.println("Man, i'm not a hunger");
             }
         }
     }

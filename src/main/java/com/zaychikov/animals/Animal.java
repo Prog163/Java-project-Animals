@@ -3,9 +3,9 @@ package main.java.com.zaychikov.animals;
 // Абстрактный класс с приватными полями и методами
 
 public abstract class Animal {
+
     private String name;
     private int age;
-    private int hunger;
 
     public Animal(String name, int age) {
         this.name = name;
