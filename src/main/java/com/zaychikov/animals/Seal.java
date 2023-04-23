@@ -1,8 +1,11 @@
 package main.java.com.zaychikov.animals;
 
 import main.java.com.zaychikov.interfaces.CanSwim;
+import main.java.com.zaychikov.interfaces.LovelyEat;
 
-public class Seal  implements CanSwim {
+import java.time.LocalTime;
+
+public class Seal implements CanSwim, LovelyEat {
 
     private String name;
 
@@ -19,4 +22,13 @@ public class Seal  implements CanSwim {
         System.out.println("Seal " + name + " said: " + "Seals is a good swimmers with flippers.");
     }
 
+    @Override
+    public void eat() {
+        LocalTime currentTime = LocalTime.now();
+        if (currentTime.isAfter(LocalTime.parse(String.valueOf(LocalTime.of(6, 0)))) && currentTime.isBefore(LocalTime.of(22, 0))) {
+            System.out.println("Time to eat fish!");
+        } else {
+            System.out.println("I want a sleep...");
+        }
+    }
 }

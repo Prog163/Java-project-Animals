@@ -25,7 +25,9 @@ public class Main {
         Monkey monkey = new Monkey();
         monkey.setName("Jack");
         seal.swim();
+        seal.eat();
         System.out.println();
         monkey.climb();
+        monkey.eat();
     }
 }
