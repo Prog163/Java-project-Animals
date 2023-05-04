@@ -1,6 +1,6 @@
-package main.java.com.zaychikov;
+package main.java.com.zaychikov.home_work_3;
 
-import main.java.com.zaychikov.animals.*;
+import main.java.com.zaychikov.home_work_3.animals.*;
 
 import java.util.ArrayList;
 import java.util.List;

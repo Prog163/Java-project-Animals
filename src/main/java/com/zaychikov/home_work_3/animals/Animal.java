@@ -1,4 +1,4 @@
-package main.java.com.zaychikov.animals;
+package main.java.com.zaychikov.home_work_3.animals;
 
 // Абстрактный класс с приватными полями и методами
 

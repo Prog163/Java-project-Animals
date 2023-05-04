@@ -1,24 +1,24 @@
-package main.java.com.zaychikov.animals;
+package main.java.com.zaychikov.home_work_3.animals;
 
 // Класс-наследник с переопределением методов
 
-public class Cat extends Animal {
+public class Dog extends Animal {
 
-    private String color;
+    private String breed;
     private int hunger;
 
     public int getHunger() {
         return (int) (Math.random() * 6);
     }
 
-    public Cat(String name, int age, String color) {
+    public Dog(String name, int age, String breed) {
         super(name, age);
-        this.color = color;
+        this.breed = breed;
     }
 
     @Override
     public void greeting() {
-        System.out.println("Meow!");
+        System.out.println("Woof woof!");
     }
 
     @Override
@@ -34,6 +34,6 @@ public class Cat extends Animal {
 
     @Override
     public void move() {
-        System.out.println("Walking on four legs.");
+        System.out.println("Running on the street with other dogs.");
     }
 }
