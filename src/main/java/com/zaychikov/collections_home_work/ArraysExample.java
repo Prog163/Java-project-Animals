@@ -1,4 +1,4 @@
-package com.zaychikov.collections_home_work_5;
+package com.zaychikov.collections_home_work;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;
@@ -36,37 +36,6 @@ public class ArraysExample {
         System.out.println(stringFirstName + " " + stringSecondName);
         List<String> stringLastName = new ArrayList<>(List.of("Jame", "Jame2"));
         System.out.println(stringLastName);
-
-        Set<String> stringSet = new HashSet<>();
-        stringSet.add("BOOM");
-        stringSet.add("BAM");
-        stringSet.add("OU");
-        stringSet.add("Carabum");
-        stringSet.remove("BOOM");
-        System.out.println(stringSet.stream().sorted());
-
-        Set<String> linkedStringSet = new LinkedHashSet<>();
-        linkedStringSet.addAll(stringSet);
-
-        Set<String> treeStringSet = new TreeSet<>();
-        treeStringSet.add("F");
-        treeStringSet.add("A");
-        treeStringSet.add("C");
-        treeStringSet.add("M");
-        treeStringSet.add("P");
-        System.out.println(treeStringSet);
-
-        Map<Integer, String> numbersMap = new HashMap<>();
-        numbersMap.put(1, "A");
-        numbersMap.put(2, "B");
-        numbersMap.put(3, "C");
-        numbersMap.put(4, "D");
-        numbersMap.replace(1, "A", "B");
-        numbersMap.get(1);
-        System.out.println(numbersMap.containsKey(5));
-        System.out.println(numbersMap.values());
-        System.out.println(numbersMap.keySet());
-        System.out.println(numbersMap.entrySet());
 
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);

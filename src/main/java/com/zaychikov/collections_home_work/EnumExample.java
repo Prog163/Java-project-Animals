@@ -1,4 +1,4 @@
-package com.zaychikov.collections_home_work_5;
+package com.zaychikov.collections_home_work;
 
 public class EnumExample {
 
