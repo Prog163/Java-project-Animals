@@ -1,4 +1,4 @@
-package com.zaychikov.collections_home_work;
+package com.zaychikov.collections_home_work.enum_classes;
 
 public enum Windows {
 

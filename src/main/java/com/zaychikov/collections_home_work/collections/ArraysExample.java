@@ -1,4 +1,4 @@
-package com.zaychikov.collections_home_work;
+package com.zaychikov.collections_home_work.collections;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.Selenide;

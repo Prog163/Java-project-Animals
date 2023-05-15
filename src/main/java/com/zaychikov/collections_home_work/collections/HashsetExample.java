@@ -1,4 +1,4 @@
-package com.zaychikov.collections_home_work;
+package com.zaychikov.collections_home_work.collections;
 
 import java.util.*;
 
